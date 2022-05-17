@@ -14,9 +14,7 @@ router.get("/:id", articleController.getAllArticleById );
 
 router.put("/:id", articleController.UpdatedArticle);
 
-//articl's comments
+//article's comments
 router.get("/comments/:id",articleController.getArticleComments );
-
-
 
 module.exports = router;
